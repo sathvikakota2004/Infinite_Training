@@ -1,0 +1,8 @@
+C:\Users\sathvikak\DotNetTraining\Coding_Challenge\CC3\obj\Debug\CC3.csproj.AssemblyReference.cache
+C:\Users\sathvikak\DotNetTraining\Coding_Challenge\CC3\obj\Debug\CC3.csproj.CoreCompileInputs.cache
+C:\Users\sathvikak\DotNetTraining\Coding_Challenge\CC3\bin\Debug\CC3.exe.config
+C:\Users\sathvikak\DotNetTraining\Coding_Challenge\CC3\bin\Debug\CC3.exe
+C:\Users\sathvikak\DotNetTraining\Coding_Challenge\CC3\bin\Debug\CC3.pdb
+C:\Users\sathvikak\DotNetTraining\Coding_Challenge\CC3\obj\Debug\CC3.exe
+C:\Users\sathvikak\DotNetTraining\Coding_Challenge\CC3\obj\Debug\CC3.pdb
+C:\Users\sathvikak\DotNetTraining\Coding_Challenge\CC3\obj\Debug\CC3.exe.config
