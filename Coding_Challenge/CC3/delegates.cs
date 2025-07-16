@@ -19,16 +19,15 @@ namespace CC3
         {
 
             Console.Write("Enter x: ");
-            int num1 = Convert.ToInt32(Console.ReadLine());
+            int no1 = Convert.ToInt32(Console.ReadLine());
             Console.Write("Enter y: ");
-            int num2 = Convert.ToInt32(Console.ReadLine());
-
-            int addResult = Add(num1, num2);
-            Console.WriteLine($"Addition of {num1} and {num2} is: {addResult}");
-            int subResult = Subtract(num1, num2);
-            Console.WriteLine($"Subtraction of {num1} and {num2} is: {subResult}");
-            int mulResult = Multiply(num1, num2);
-            Console.WriteLine($"Multiplication of {num1} and {num2} is: {mulResult}");
+            int no2 = Convert.ToInt32(Console.ReadLine());
+            int addResult = Add(no1, no2);
+            Console.WriteLine($"Addition of {no1} and {no2} is: {addResult}");
+            int subResult = Subtract(no1, no2);
+            Console.WriteLine($"Subtraction of {no1} and {no2} is: {subResult}");
+            int mulResult = Multiply(no1, no2);
+            Console.WriteLine($"Multiplication of {no1} and {no2} is: {mulResult}");
 
             Console.Read();
 

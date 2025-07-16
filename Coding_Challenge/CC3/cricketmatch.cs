@@ -8,15 +8,15 @@ namespace CC3
 {
     internal class Cricketmatch
     {
-        public static void Pointscalculation(int no_of_matches)
+        public static void score(int no_of_matches)
         {
             int sum = 0;
 
             for (int i = 0; i < no_of_matches; i++)
             {
                 Console.Write($"Enter score of {i + 1}:");
-                int score = Convert.ToInt32(Console.ReadLine());
-                sum += score;
+                int scores = Convert.ToInt32(Console.ReadLine());
+                sum += scores;
 
 
             }
@@ -33,7 +33,7 @@ namespace CC3
             int no_of_matches = Convert.ToInt32(Console.ReadLine());
 
             Cricketmatch team = new Cricketmatch();
-            Cricketmatch.Pointscalculation(no_of_matches);
+            Cricketmatch.score(no_of_matches);
 
         }
 
