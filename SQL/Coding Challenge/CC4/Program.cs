@@ -24,7 +24,7 @@ namespace CC4
     new Employeedetails { EmployeeID = 1010, FirstName = "Sumit", LastName = "Shah", Title = "Manager", DOB = DateTime.ParseExact("12-04-1991", "dd-MM-yyyy", null), DOJ = DateTime.ParseExact("02-01-2016", "dd-MM-yyyy", null), City = "Pune" }
 };
             Console.WriteLine("All employees details");
-       
+
             foreach (var emp in empList)
             {
                 Console.WriteLine($"{emp.EmployeeID} ,{emp.FirstName} ,{emp.LastName}, {emp.Title} ,{emp.DOB:dd-MM-yyyy} ,{emp.DOJ:dd-MM-yyyy} ,{emp.City}");
@@ -33,32 +33,32 @@ namespace CC4
 
 
 
-            Console.WriteLine("Employees whose location is not Mumbai:");
+            Console.WriteLine("Employees whose location is not in Mumbai:");
             var notMumbaiEmployees = empList.FindAll(emp => emp.City != "Mumbai");
 
             foreach (var emp in notMumbaiEmployees)
             {
-                Console.WriteLine($"{emp.EmployeeID} {emp.FirstName} {emp.LastName} {emp.Title} {emp.DOB:dd-MM-yyyy} {emp.DOJ:dd-MM-yyyy} {emp.City}");
+                Console.WriteLine($"{emp.EmployeeID} ,{emp.FirstName} ,{emp.LastName} ,{emp.Title} ,{emp.DOB:dd-MM-yyyy} ,{emp.DOJ:dd-MM-yyyy} ,{emp.City}");
             }
 
 
-            Console.WriteLine("Employees who is AsstManager:");
+            Console.WriteLine("Employees who is AssistantManager:");
 
             var asstManagers = empList.Where(emp => emp.Title == "AsstManager");
 
             foreach (var emp in asstManagers)
             {
-                Console.WriteLine($"{emp.EmployeeID} {emp.FirstName} {emp.LastName} {emp.Title} {emp.DOB:dd-MM-yyyy} {emp.DOJ:dd-MM-yyyy} {emp.City}");
+                Console.WriteLine($"{emp.EmployeeID} ,{emp.FirstName}, {emp.LastName}, {emp.Title} ,{emp.DOB:dd-MM-yyyy}, {emp.DOJ:dd-MM-yyyy} ,{emp.City}");
             }
 
 
             Console.WriteLine("Employees whose Last Name starts with 'S':");
 
-            var lastNameStartsWithS = empList.Where(emp => emp.LastName.StartsWith("S"));
+            var startwithS = empList.Where(emp => emp.LastName[0] == 'S');
 
-            foreach (var emp in lastNameStartsWithS)
+            foreach (var emp in startwithS)
             {
-                Console.WriteLine($"{emp.EmployeeID} {emp.FirstName} {emp.LastName} {emp.Title} {emp.DOB:dd-MM-yyyy} {emp.DOJ:dd-MM-yyyy} {emp.City}");
+                Console.WriteLine($"{emp.EmployeeID} ,{emp.FirstName}, {emp.LastName} ,{emp.Title} ,{emp.DOB:dd-MM-yyyy} ,{emp.DOJ:dd-MM-yyyy} ,{emp.City}");
             }
 
 
