@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\sathvikak\\DotNetTraining\\SQL\\Coding Challenge\\CC4\\",
+  "WorkspaceRootPath": "C:\\Users\\sathvikak\\DotNetTraining\\SQL training\\Coding Challenges\\CC4\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{518DDDFF-3180-43D7-8721-8E7EE081BB01}|CC4.csproj|c:\\users\\sathvikak\\dotnettraining\\sql\\coding challenge\\cc4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{518DDDFF-3180-43D7-8721-8E7EE081BB01}|CC4.csproj|c:\\users\\sathvikak\\dotnettraining\\sql training\\coding challenges\\cc4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{518DDDFF-3180-43D7-8721-8E7EE081BB01}|CC4.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{518DDDFF-3180-43D7-8721-8E7EE081BB01}|CC4.csproj|C:\\Users\\sathvikak\\DotNetTraining\\SQL\\Coding Challenge\\CC4\\employeedetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{518DDDFF-3180-43D7-8721-8E7EE081BB01}|CC4.csproj|C:\\Users\\sathvikak\\DotNetTraining\\SQL training\\Coding Challenges\\CC4\\employeedetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{518DDDFF-3180-43D7-8721-8E7EE081BB01}|CC4.csproj|solutionrelative:employeedetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -28,11 +28,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\sathvikak\\DotNetTraining\\SQL\\Coding Challenge\\CC4\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\sathvikak\\DotNetTraining\\SQL training\\Coding Challenges\\CC4\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\sathvikak\\DotNetTraining\\SQL\\Coding Challenge\\CC4\\Program.cs",
+              "ToolTip": "C:\\Users\\sathvikak\\DotNetTraining\\SQL training\\Coding Challenges\\CC4\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAACYAAAAAamZmZmb4vzgAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-16T06:49:55.4Z",
               "EditorCaption": ""
@@ -41,14 +41,13 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Employeedetails.cs",
-              "DocumentMoniker": "C:\\Users\\sathvikak\\DotNetTraining\\SQL\\Coding Challenge\\CC4\\Employeedetails.cs",
+              "DocumentMoniker": "C:\\Users\\sathvikak\\DotNetTraining\\SQL training\\Coding Challenges\\CC4\\Employeedetails.cs",
               "RelativeDocumentMoniker": "Employeedetails.cs",
-              "ToolTip": "C:\\Users\\sathvikak\\DotNetTraining\\SQL\\Coding Challenge\\CC4\\Employeedetails.cs",
+              "ToolTip": "C:\\Users\\sathvikak\\DotNetTraining\\SQL training\\Coding Challenges\\CC4\\Employeedetails.cs",
               "RelativeToolTip": "Employeedetails.cs",
               "ViewState": "AgIAAAQAAAAAMjMzMzP7vxMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-16T06:49:13.048Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-16T06:49:13.048Z"
             }
           ]
         }
