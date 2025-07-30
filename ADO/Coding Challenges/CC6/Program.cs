@@ -6,9 +6,7 @@ using System.Threading.Tasks;
 
 namespace CC6
 {
-    using System;
-    using System.Data;
-    using System.Data.SqlClient;
+    
 
     class Program
     {
