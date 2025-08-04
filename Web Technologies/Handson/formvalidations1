@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Validations</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+div {
+    background-color: white;
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    width: 350px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+input.error {
+    border-color: red;
+}
+
+input.valid {
+    border-color: rgb(4, 69, 4);
+}
+
+.err-msg {
+    color: red;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+    </style>
+    <script>
+        function formvalidator() {
+            var username = document.getElementById('uname');
+            var email = document.getElementById('emails');
+            var pword = document.getElementById('password');
+            var cpword = document.getElementById('Passwords');
+
+            if (lengthRestriction(username, 8, 25)) {
+                if (emailValidate(email, 'Please enter a valid email')) {
+                    if (passwordvalidation(pword, 'Password must have at least 8 characters that include at least 1 lowercase character, 1 uppercase character, 1 number, and 1 special character (!@#$%^&*)')) {
+                        if (samepassword(pword, cpword, 'Passwords do not match')) {
+                            return true;
+                        }
+                    }
+                }
+            }
+            return false;
+        }
+
+        function lengthRestriction(elem, min, max) {
+            var unames = elem.value;
+            if (unames.length >= min && unames.length <= max) {
+                return true;
+            } else {
+                alert("Username must be between " + min + " and " + max + " characters only.");
+                elem.classList.remove("valid");
+                elem.classList.add("error");
+                elem.focus();
+                return false;
+            }
+        }
+
+        function emailValidate(elem, helpmsg) {
+            var emailexpr = /^[\w\-\.\+]+\@[a-zA-Z0-9\.\-]+\.[a-zA-Z0-9]{2,4}$/;
+            if (elem.value.match(emailexpr)) {
+                return true;
+            } else {
+                alert(helpmsg);
+                elem.classList.remove("valid");
+                elem.classList.add("error");
+                elem.focus();
+                return false;
+            }
+        }
+
+        function passwordvalidation(elem, helpmsg) {
+            var passwordexp = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/;
+            if (elem.value.match(passwordexp)) {
+                return true;
+            } else {
+                alert(helpmsg);
+                elem.classList.remove("valid");
+                elem.classList.add("error");
+                elem.focus();
+                return false;
+            }
+        }
+
+        function samepassword(pword, cpword, helpmsg) {
+       if (pword === cpword && cpword.value !== "") {
+        cpword.classList.remove("error");
+        cpword.classList.add("valid");
+        return true;
+    } else {
+        alert(helpmsg);
+        cpword.classList.remove("valid");
+        cpword.classList.add("error");
+        cpword.focus();
+        return false;
+    }
+        }
+
+    </script>
+</head>
+<body>
+    <div>
+    <h1>Sign Up</h1>
+    <form onsubmit="return formvalidator();">
+        UserName:<br /> <input type="text" id="uname"><br /><br />
+        Email:<br /> <input type="email" id="emails"><br /><br />
+        Password:<br /> <input type="password" id="password"><br /><br />
+        Confirm Password:<br /> <input type="password" id="Passwords"><br /><br />
+        <button>Sign Up</button>
+    </form>
+    </div>
+</body>
+</html>

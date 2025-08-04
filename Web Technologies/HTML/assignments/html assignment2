@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Overlay Effect</title>
+  <style>
+    .image-container {
+      position: relative;
+      width: 300px;
+    }
+
+    .image-container img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent black */
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      opacity: 0;
+      transition: opacity 0.3s ease;
+    }
+
+    .image-container:hover .overlay {
+      opacity: 1;
+    }
+    .css3-button {
+      background: linear-gradient(to right, #4CAF50, #45a049); /* Gradient background */
+      border: none;
+      color: white;
+      padding: 12px 24px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      border-radius: 8px; /* Rounded corners */
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow */
+      cursor: pointer;
+      transition: background 0.3s ease, transform 0.2s ease;
+    }
+  </style>
+</head>
+<body>
+  <div class="image-container">
+    <img src="C:\Users\sathvikak\DotNetTraining\Web Technologies\HTML\Biscuits.jpg" alt="Sample Image">
+    <div class="overlay">
+      <p>This is Biscuits</p>
+    </div>
+  </div>
+  <button class="css3-button">This is CSS3 Button</button>
+</body>
+</html>
+

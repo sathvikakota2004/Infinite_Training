@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tribute to M.S. Dhoni</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f0f4f8;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: auto;
+      padding: 20px;
+      background-color: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    .image-container {
+      text-align: center;
+    }
+
+    .image-container img {
+      width: 200px;
+      height: auto;
+      border-radius: 50%;
+      border: 4px solid #007bff;
+      margin-top: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #007bff;
+      font-size: 2.5em;
+      margin-top: 10px;
+    }
+
+    h2 {
+      color: #333;
+      margin-top: 30px;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    li {
+      margin-bottom: 10px;
+    }
+
+    .footer {
+      text-align: center;
+      margin-top: 40px;
+      font-size: 0.9em;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="image-container">
+      <img src="C:\Users\sathvikak\DotNetTraining\Web Technologies\HTML\assignments\dhoni-image.png" alt="M.S. Dhoni">
+    </div>
+
+    <h1>Mahendra Singh Dhoni</h1>
+
+    <p>
+      M.S. Dhoni, fondly known as "Captain Cool", is a legendary Indian cricketer and one of the most successful captains in the history of Indian cricket. Known for his calm demeanor, sharp cricketing brain, and finishing abilities, Dhoni has left an indelible mark on world cricket.
+    </p>
+
+    <h2>Major Achievements:</h2>
+    <ul>
+      <li>Led India to victory in the 2007 ICC T20 World Cup.</li>
+      <li>Captained India to win the 2011 ICC Cricket World Cup after 28 years.</li>
+      <li>Won the 2013 ICC Champions Trophy under his captaincy – making him the only captain to win all ICC trophies.</li>
+      <li>Won multiple IPL and Champions League titles with Chennai Super Kings (CSK).</li>
+      <li>One of the greatest wicket-keepers in cricket history with over 800 dismissals in international cricket.</li>
+      <li>Awarded the Rajiv Gandhi Khel Ratna (2007) and Padma Bhushan (2018).</li>
+      <li>Known for finishing matches with composure – notably his 2011 WC final six at Wankhede Stadium.</li>
+    </ul>
+
+    <h2>Legacy:</h2>
+    <p>
+      Dhoni announced his retirement from international cricket on August 15, 2020. However, he continues to inspire millions through his leadership in the IPL. Revered for his humility, patriotism, and contribution to Indian cricket, Dhoni remains a role model for aspiring athletes.
+    </p>
+
+    <div class="footer">
+      © 2025 Tribute Page by [Your Name]
+    </div>
+  </div>
+</body>
+</html>
