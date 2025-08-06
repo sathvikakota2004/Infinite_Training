@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Selecting Element from List</title>
+
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            var element = $("li").eq(1); 
+            var text = element.text();   
+
+            
+            document.getElementById("result").innerHTML = "Selected item: " + text;
+        });
+    </script>
+</head>
+<body>
+
+    <ul>
+        <li>CSHARP</li>
+        <li>SQL</li>
+        <li>ADO</li>
+    </ul>
+
+    
+    <p id="result"></p>
+
+</body>
+</html>

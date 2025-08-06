@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Identiy h1 tags</title>
+        <style>
+            div h1{
+                background-color: red;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <h1>This is Coding Challenge 7</h1>
+            <p>It Consist Of</p>
+            <h1>HTML</h1>
+            <h1>CSS</h1>
+            <h1>JavaScript</h1>
+            <h1>Jquery</h1>
+            <h2>Boostrap</h2>
+        </div>
+    </body>
+</html>

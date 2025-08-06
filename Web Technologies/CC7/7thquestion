@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>prepending list items with index</title>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script>
+             $(document).ready(function(){
+                $('li').each(function(index){
+                    $(this).prepend(index +" ")
+                })
+             })
+        </script>
+    </head>
+    <body>
+        <ul>
+        <li>CSHARP</li>
+        <li>SQL</li>
+        <li>ADO</li>
+    </ul>
+    </body>
+</html>

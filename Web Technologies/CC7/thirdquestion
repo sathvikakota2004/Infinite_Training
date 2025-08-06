@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Event Listner</title>
+        <script>
+            function Msglog(){
+                alert("Button is clicked");
+            }
+        </script>
+    </head>
+    <body>
+        <button onclick="Msglog()">Click Me</button>
+    </body>
+</html>
