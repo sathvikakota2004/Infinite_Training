@@ -1,0 +1,8 @@
+C:\Users\sathvikak\Desktop\MiniProject\Railway_Management\bin\Debug\Railway_Management.exe.config
+C:\Users\sathvikak\Desktop\MiniProject\Railway_Management\bin\Debug\Railway_Management.exe
+C:\Users\sathvikak\Desktop\MiniProject\Railway_Management\bin\Debug\Railway_Management.pdb
+C:\Users\sathvikak\Desktop\MiniProject\Railway_Management\obj\Debug\Railway_Management.csproj.AssemblyReference.cache
+C:\Users\sathvikak\Desktop\MiniProject\Railway_Management\obj\Debug\Railway_Management.csproj.CoreCompileInputs.cache
+C:\Users\sathvikak\Desktop\MiniProject\Railway_Management\obj\Debug\Railway_Management.exe
+C:\Users\sathvikak\Desktop\MiniProject\Railway_Management\obj\Debug\Railway_Management.pdb
+C:\Users\sathvikak\Desktop\MiniProject\Railway_Management\obj\Debug\Railway_Management.exe.config
