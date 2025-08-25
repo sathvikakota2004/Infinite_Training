@@ -1,0 +1,35 @@
+﻿@model CC9northwinddbfirst.Models.Customer
+@{
+    ViewBag.Title = "Customer For Order";
+}
+
+<h2>@ViewBag.Title</h2>
+
+@if (Model == null)
+{
+    <div>No customer found.</div>
+}
+else
+{
+    <div class="panel panel-default">
+        <div class="panel-heading"><strong>@Model.CompanyName</strong></div>
+        <div class="panel-body">
+            <dl class="dl-horizontal">
+                <dt>Contact</dt>
+                <dd>@Model.ContactName (@Model.ContactTitle)</dd>
+
+                <dt>Address</dt>
+                <dd>@Model.Address, @Model.City, @Model.Region @Model.PostalCode</dd>
+
+                <dt>Country</dt>
+                <dd>@Model.Country</dd>
+
+                <dt>Phone</dt>
+                <dd>@Model.Phone</dd>
+
+                <dt>Fax</dt>
+                <dd>@Model.Fax</dd>
+            </dl>
+        </div>
+    </div>
+}
