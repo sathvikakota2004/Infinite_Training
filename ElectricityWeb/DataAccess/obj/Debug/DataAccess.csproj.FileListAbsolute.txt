@@ -1,0 +1,6 @@
+C:\Users\sathvikak\Desktop\ElectricityWeb\DataAccess\bin\Debug\DataAccess.dll
+C:\Users\sathvikak\Desktop\ElectricityWeb\DataAccess\bin\Debug\DataAccess.pdb
+C:\Users\sathvikak\Desktop\ElectricityWeb\DataAccess\obj\Debug\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\sathvikak\Desktop\ElectricityWeb\DataAccess\obj\Debug\DataAccess.dll
+C:\Users\sathvikak\Desktop\ElectricityWeb\DataAccess\obj\Debug\DataAccess.pdb
+C:\Users\sathvikak\Desktop\ElectricityWeb\DataAccess\obj\Debug\DataAccess.csproj.AssemblyReference.cache

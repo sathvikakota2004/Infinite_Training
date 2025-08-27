@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.36324.18
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElectricityWeb", "ElectricityWeb\ElectricityWeb.csproj", "{77F41910-6C42-42D1-8FE2-F3F64140651B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{90969D79-A384-49F7-ACFE-6B24E5E4C8DB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{77F41910-6C42-42D1-8FE2-F3F64140651B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77F41910-6C42-42D1-8FE2-F3F64140651B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77F41910-6C42-42D1-8FE2-F3F64140651B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77F41910-6C42-42D1-8FE2-F3F64140651B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90969D79-A384-49F7-ACFE-6B24E5E4C8DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90969D79-A384-49F7-ACFE-6B24E5E4C8DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90969D79-A384-49F7-ACFE-6B24E5E4C8DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90969D79-A384-49F7-ACFE-6B24E5E4C8DB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {07711595-74EB-4EA9-A497-115E9B10EC04}
+	EndGlobalSection
+EndGlobal

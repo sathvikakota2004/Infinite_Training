@@ -1,0 +1,25 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Site.master.cs" Inherits="Site" %>
+<!DOCTYPE html>
+<html>
+<head runat="server">
+    <title>Electricity Board Billing</title>
+    <asp:ContentPlaceHolder ID="head" runat="server" />
+    <link href="App_Themes/Default/site.css" rel="stylesheet" />
+</head>
+<body>
+<form id="form1" runat="server">
+  <div class="container">
+    <h1>Electricity Board Billing</h1>
+    <asp:Menu ID="MainMenu" runat="server" Orientation="Horizontal">
+      <Items>
+        <asp:MenuItem Text="Home" NavigateUrl="~/AdminLogin.aspx" />
+        <asp:MenuItem Text="Add Bills" NavigateUrl="~/AddBills.aspx" />
+        <asp:MenuItem Text="Retrieve Last N" NavigateUrl="~/RetrieveBills.aspx" />
+      </Items>
+    </asp:Menu>
+    <hr />
+    <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+  </div>
+</form>
+</body>
+</html>
