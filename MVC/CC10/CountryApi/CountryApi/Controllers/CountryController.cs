@@ -34,7 +34,7 @@ namespace CountryApi.Controllers
         {
             if (country == null) return BadRequest("Invalid data.");
 
-            country.Id = countries.Max(c => c.Id) + 1; // Auto increment
+            country.Id = countries.Max(c => c.Id) + 1; 
             countries.Add(country);
 
             return CreatedAtRoute("GetCountryById", new { id = country.Id }, country);
@@ -63,7 +63,7 @@ namespace CountryApi.Controllers
             if (existing == null) return NotFound();
 
             countries.Remove(existing);
-            return StatusCode(HttpStatusCode.NoContent); // 204
+            return StatusCode(HttpStatusCode.NoContent); 
         }
     }
 }
